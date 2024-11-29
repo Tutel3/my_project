@@ -27,9 +27,7 @@ getChat()
       <button type="submit">Click Me!</button>
     </form>
     <section id="displasyChat">
-    <div>
-    {{ displasyChat }}
-  </div>
+      <div v-for="msg in displasyChat">{{ msg }}</div>
   </section>
   </main>
 </template>
